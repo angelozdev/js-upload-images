@@ -1,0 +1,14 @@
+{
+  "name": "js-subir-imagenes-progressbar",
+  "version": "1.0.0",
+  "description": "https://www.youtube.com/watch?v=gXdEdauvW0M&t=161s&ab_channel=FaztCode",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Angelo Zambrano <angelozam17@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.0.5"
+  }
+}

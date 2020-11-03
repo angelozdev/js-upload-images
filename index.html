@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="./src/styles.css" />
+      <title>Upload Images</title>
+   </head>
+   <body>
+      <!-- Container -->
+      <div class="container">
+         <!-- Wrapper -->
+         <div class="wrapper">
+            <!-- Content -->
+            <div class="grid">
+               <figure>
+                  <img
+                     width="300"
+                     height="300"
+                     id="previewer"
+                     alt="preview image"
+                     src=""
+                  />
+               </figure>
+
+               <footer>
+                  <form id="form" action="">
+                     <input id="uploader" type="file" name="file" />
+                     <progress id="progress" value="0" max="100"></progress>
+                     <button type="submit" id="btn_upload">UPLOAD</button>
+                  </form>
+               </footer>
+            </div>
+         </div>
+      </div>
+      <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+      <script src="src/index.ts"></script>
+   </body>
+</html>
